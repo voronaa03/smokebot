@@ -77,7 +77,6 @@ async def back_question(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         state["awaiting_answer"] = True
         await query.edit_message_text(text=questions[state["q_index"]])
 
-
 async def finish_survey(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     query = update.callback_query
     await query.answer()
