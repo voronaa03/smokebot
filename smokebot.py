@@ -6,7 +6,7 @@ from telegram.ext import (
 )
 from telegram.helpers import escape_markdown
 
-BOT_TOKEN   = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN") or "8064625815:AAFJKTIk2iU8IDBrsrdabMLqEAya_l_9Coo"
 ADMIN_ID    = int(os.getenv("ADMIN_ID", "5601411156"))
 BUTTON_ADMIN_USERNAME = "Men_of_G" 
 
