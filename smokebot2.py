@@ -10,7 +10,7 @@ from telegram.ext import (
 )
 from telegram.helpers import escape_markdown
 
-BOT_TOKEN = os.getenv("BOT_TOKEN") or " "
+BOT_TOKEN = os.getenv("BOT_TOKEN") or "8064625815:AAFJKTIk2iU8IDBrsrdabMLqEAya_l_9Coo"
 admin_ids = [5601411156]
 ADMIN_USERNAME = "Men_of_G"
 DB_PATH = "support_bot.db"
